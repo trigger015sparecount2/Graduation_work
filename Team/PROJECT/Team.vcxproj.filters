@@ -43,6 +43,12 @@
     <Filter Include="ヘッダー ファイル\bombs">
       <UniqueIdentifier>{f03d3ba5-e583-4314-9f9b-8cb98b0133be}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\control">
+      <UniqueIdentifier>{12a4f8b3-c221-4241-8a1a-7a2cfa2556a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\control">
+      <UniqueIdentifier>{59eaeaa5-ee14-4d03-9e4e-718db98e1c7f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="camera.cpp">
@@ -126,6 +132,12 @@
     <ClCompile Include="icebomb.cpp">
       <Filter>ソース ファイル\bombs</Filter>
     </ClCompile>
+    <ClCompile Include="control.cpp">
+      <Filter>ソース ファイル\control</Filter>
+    </ClCompile>
+    <ClCompile Include="control_player.cpp">
+      <Filter>ソース ファイル\control</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="input.h">
@@ -208,6 +220,12 @@
     </ClInclude>
     <ClInclude Include="icebomb.h">
       <Filter>ヘッダー ファイル\bombs</Filter>
+    </ClInclude>
+    <ClInclude Include="control.h">
+      <Filter>ヘッダー ファイル\control</Filter>
+    </ClInclude>
+    <ClInclude Include="control_player.h">
+      <Filter>ヘッダー ファイル\control</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

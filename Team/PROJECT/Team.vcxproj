@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClCompile Include="bomb.cpp" />
     <ClCompile Include="camera.cpp" />
+    <ClCompile Include="control.cpp" />
+    <ClCompile Include="control_player.cpp" />
     <ClCompile Include="danger.cpp" />
     <ClCompile Include="fade.cpp" />
     <ClCompile Include="game.cpp" />
@@ -50,6 +52,8 @@
   <ItemGroup>
     <ClInclude Include="bomb.h" />
     <ClInclude Include="camera.h" />
+    <ClInclude Include="control.h" />
+    <ClInclude Include="control_player.h" />
     <ClInclude Include="danger.h" />
     <ClInclude Include="fade.h" />
     <ClInclude Include="game.h" />
