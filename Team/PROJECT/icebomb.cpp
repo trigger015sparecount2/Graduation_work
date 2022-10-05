@@ -1,6 +1,6 @@
 //---------------------------
 //Author:Oãq¢
-//•’Ê”š’eˆ—(normalbomb.cpp)
+//•X”š’eˆ—(icebomb.cpp)
 //---------------------------
 #include "icebomb.h"
 #include "manager.h"

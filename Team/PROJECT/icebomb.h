@@ -9,7 +9,6 @@
 
 #include "main.h"
 #include "bomb.h"
-#include "scene3d.h"
 
 class CIceBomb : public CBomb
 {

@@ -126,6 +126,21 @@
     <ClCompile Include="icebomb.cpp">
       <Filter>ソース ファイル\bombs</Filter>
     </ClCompile>
+    <ClCompile Include="confusionbomb.cpp">
+      <Filter>ソース ファイル\bombs</Filter>
+    </ClCompile>
+    <ClCompile Include="firebomb.cpp">
+      <Filter>ソース ファイル\bombs</Filter>
+    </ClCompile>
+    <ClCompile Include="poisonbomb.cpp">
+      <Filter>ソース ファイル\bombs</Filter>
+    </ClCompile>
+    <ClCompile Include="battery.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="input.h">
@@ -208,6 +223,21 @@
     </ClInclude>
     <ClInclude Include="icebomb.h">
       <Filter>ヘッダー ファイル\bombs</Filter>
+    </ClInclude>
+    <ClInclude Include="poisonbomb.h">
+      <Filter>ヘッダー ファイル\bombs</Filter>
+    </ClInclude>
+    <ClInclude Include="confusionbomb.h">
+      <Filter>ヘッダー ファイル\bombs</Filter>
+    </ClInclude>
+    <ClInclude Include="firebomb.h">
+      <Filter>ヘッダー ファイル\bombs</Filter>
+    </ClInclude>
+    <ClInclude Include="battery.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
