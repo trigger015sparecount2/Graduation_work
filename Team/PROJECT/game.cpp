@@ -89,6 +89,8 @@ HRESULT CGame::Init(D3DXVECTOR3 /*pos*/)
 	CManager::SetGameClear(false);
 	CManager::SetGameEnd(false);
 	CManager::SetEnd(false);
+
+	CPlayer::Create(D3DXVECTOR3(0.0f, 0.0f, 0.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f));
 	return S_OK;
 }
 

@@ -43,6 +43,12 @@
     <Filter Include="ヘッダー ファイル\bombs">
       <UniqueIdentifier>{f03d3ba5-e583-4314-9f9b-8cb98b0133be}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\control">
+      <UniqueIdentifier>{12a4f8b3-c221-4241-8a1a-7a2cfa2556a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\control">
+      <UniqueIdentifier>{59eaeaa5-ee14-4d03-9e4e-718db98e1c7f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="camera.cpp">
@@ -126,6 +132,7 @@
     <ClCompile Include="icebomb.cpp">
       <Filter>ソース ファイル\bombs</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="confusionbomb.cpp">
       <Filter>ソース ファイル\bombs</Filter>
     </ClCompile>
@@ -140,6 +147,13 @@
     </ClCompile>
     <ClCompile Include="object.cpp">
       <Filter>ソース ファイル</Filter>
+=======
+    <ClCompile Include="control.cpp">
+      <Filter>ソース ファイル\control</Filter>
+    </ClCompile>
+    <ClCompile Include="control_player.cpp">
+      <Filter>ソース ファイル\control</Filter>
+>>>>>>> 508ffd14060e4725b56cc3200c3d4245d548774c
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -224,6 +238,7 @@
     <ClInclude Include="icebomb.h">
       <Filter>ヘッダー ファイル\bombs</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="poisonbomb.h">
       <Filter>ヘッダー ファイル\bombs</Filter>
     </ClInclude>
@@ -238,6 +253,13 @@
     </ClInclude>
     <ClInclude Include="object.h">
       <Filter>ヘッダー ファイル</Filter>
+=======
+    <ClInclude Include="control.h">
+      <Filter>ヘッダー ファイル\control</Filter>
+    </ClInclude>
+    <ClInclude Include="control_player.h">
+      <Filter>ヘッダー ファイル\control</Filter>
+>>>>>>> 508ffd14060e4725b56cc3200c3d4245d548774c
     </ClInclude>
   </ItemGroup>
 </Project>

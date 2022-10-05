@@ -22,7 +22,12 @@
     <ClCompile Include="battery.cpp" />
     <ClCompile Include="bomb.cpp" />
     <ClCompile Include="camera.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="confusionbomb.cpp" />
+=======
+    <ClCompile Include="control.cpp" />
+    <ClCompile Include="control_player.cpp" />
+>>>>>>> 508ffd14060e4725b56cc3200c3d4245d548774c
     <ClCompile Include="danger.cpp" />
     <ClCompile Include="fade.cpp" />
     <ClCompile Include="firebomb.cpp" />
@@ -56,7 +61,12 @@
     <ClInclude Include="battery.h" />
     <ClInclude Include="bomb.h" />
     <ClInclude Include="camera.h" />
+<<<<<<< HEAD
     <ClInclude Include="confusionbomb.h" />
+=======
+    <ClInclude Include="control.h" />
+    <ClInclude Include="control_player.h" />
+>>>>>>> 508ffd14060e4725b56cc3200c3d4245d548774c
     <ClInclude Include="danger.h" />
     <ClInclude Include="fade.h" />
     <ClInclude Include="firebomb.h" />
